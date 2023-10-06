@@ -2,7 +2,7 @@
 
 function palindrome(str){
 
-	let str = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
+	 str = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
 
 	return str === str.split("").reverse().join("");
 	
